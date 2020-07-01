@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/haost/Desktop/source
+CMAKE_SOURCE_DIR = /home/haost/Desktop/temp/OTUS1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/haost/Desktop/source/build
+CMAKE_BINARY_DIR = /home/haost/Desktop/temp/OTUS1/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/helloworld.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/helloworld.dir/flags.make
 
 CMakeFiles/helloworld.dir/lib.cpp.o: CMakeFiles/helloworld.dir/flags.make
 CMakeFiles/helloworld.dir/lib.cpp.o: ../lib.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/haost/Desktop/source/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/helloworld.dir/lib.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/helloworld.dir/lib.cpp.o -c /home/haost/Desktop/source/lib.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/haost/Desktop/temp/OTUS1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/helloworld.dir/lib.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/helloworld.dir/lib.cpp.o -c /home/haost/Desktop/temp/OTUS1/lib.cpp
 
 CMakeFiles/helloworld.dir/lib.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/helloworld.dir/lib.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/haost/Desktop/source/lib.cpp > CMakeFiles/helloworld.dir/lib.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/haost/Desktop/temp/OTUS1/lib.cpp > CMakeFiles/helloworld.dir/lib.cpp.i
 
 CMakeFiles/helloworld.dir/lib.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/helloworld.dir/lib.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/haost/Desktop/source/lib.cpp -o CMakeFiles/helloworld.dir/lib.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/haost/Desktop/temp/OTUS1/lib.cpp -o CMakeFiles/helloworld.dir/lib.cpp.s
 
 CMakeFiles/helloworld.dir/lib.cpp.o.requires:
 
@@ -91,7 +91,7 @@ helloworld_EXTERNAL_OBJECTS =
 libhelloworld.a: CMakeFiles/helloworld.dir/lib.cpp.o
 libhelloworld.a: CMakeFiles/helloworld.dir/build.make
 libhelloworld.a: CMakeFiles/helloworld.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/haost/Desktop/source/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libhelloworld.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/haost/Desktop/temp/OTUS1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libhelloworld.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/helloworld.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/helloworld.dir/link.txt --verbose=$(VERBOSE)
 
@@ -109,6 +109,6 @@ CMakeFiles/helloworld.dir/clean:
 .PHONY : CMakeFiles/helloworld.dir/clean
 
 CMakeFiles/helloworld.dir/depend:
-	cd /home/haost/Desktop/source/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/haost/Desktop/source /home/haost/Desktop/source /home/haost/Desktop/source/build /home/haost/Desktop/source/build /home/haost/Desktop/source/build/CMakeFiles/helloworld.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/haost/Desktop/temp/OTUS1/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/haost/Desktop/temp/OTUS1 /home/haost/Desktop/temp/OTUS1 /home/haost/Desktop/temp/OTUS1/build /home/haost/Desktop/temp/OTUS1/build /home/haost/Desktop/temp/OTUS1/build/CMakeFiles/helloworld.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/helloworld.dir/depend
 

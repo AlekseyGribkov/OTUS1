@@ -6,5 +6,5 @@ CXX_FLAGS =   -Wall -Wextra -pedantic -Werror -std=gnu++14
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/haost/Desktop/source/build 
+CXX_INCLUDES = -I/home/haost/Desktop/temp/OTUS1/build 
 
